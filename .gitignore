@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & Testing
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+
+# Cache directories
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# IDE & Editor
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Browser & Puppeteer artifacts
+lighthouse.*/
+CUsersStefanAppDataLocallighthouse.*/
+browser-profiles/
+screenshots/
+*.har
+
+# Unix sockets
+*.sock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation (internal use only)
+*.md.bak
+COMPLETION_REPORT.md
+FINAL_STATUS.txt
+FINAL_SUMMARY.md
+SANITIZATION.md
+SANITIZATION_PROGRESS.md
+SECURITY.md
+TRANSFORMATION_COMPLETE.md
+
+# Old/backup files
+*_OLD.*
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
